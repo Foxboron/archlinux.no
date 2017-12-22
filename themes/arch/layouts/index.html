@@ -1,0 +1,16 @@
+{{partial "header.html" .}}
+<div id="content">
+    <div id="archdev-navbar">            
+    </div>
+    <div id="news">
+        {{ range (where .Data.Pages.ByPublishDate.Reverse "Section" "posts") }}
+        <h4><a href="{{.Permalink}}" title="{{.Title}}"> {{.Title}}</a></h4>
+        <p class="timestamp">{{.Date.Format "2006-02-01"}}<p>
+
+        <div class="article-content">
+            {{.Content}}
+        </div>
+        {{end}}
+    </div>
+</div>
+{{partial "footer.html" .}}
