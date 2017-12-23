@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "http://archlinux.no/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Arch Linux Nordic"
 theme = "arch"
