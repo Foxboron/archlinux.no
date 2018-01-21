@@ -1,6 +1,7 @@
 ---
 title: "mirror.archlinux.no har tatt kvelden"
 date: 2018-01-21T16:10:47+01:00
+author: Foxboron
 ---
 
 Status: Krise.  

@@ -1,6 +1,7 @@
 ---
 title: "Arch Linux Nordic"
 date: 2017-12-22T13:31:21+01:00
+author: Foxboron
 ---
 
 Velkommen til Arch Linux nordic!
