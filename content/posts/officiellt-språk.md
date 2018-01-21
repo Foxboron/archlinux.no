@@ -1,6 +1,6 @@
 ---
 title: "Officiellt språk"
-date: 2018-01-21T21:48:30
+date: 2018-01-21T21:48:30+01:00
 author: Johannes Löthberg
 ---
 
