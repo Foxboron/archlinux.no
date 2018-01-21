@@ -14,7 +14,7 @@
 
         {{ range (where .Data.Pages.ByPublishDate "Section" "posts") }}
         <h4><a href="{{.Permalink}}" title="{{.Title}}"> {{.Title}}</a></h4>
-        <p class="timestamp">{{.Date.Format "2006-02-01"}}<p>
+        <p class="timestamp">{{.Date.Format "2006-01-02"}}<p>
 
         <div class="article-content">
             {{.Content}}
