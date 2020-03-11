@@ -1,4 +1,7 @@
 {{partial "header.html" .}}
+
+{{ $Pages := where site.RegularPages "Type" "posts" }}
+
 <div id="content">
     <div id="archdev-navbar">            
     </div>
@@ -12,7 +15,7 @@
 
     <a href="/index.xml" title="Arch News RSS Feed" class="rss-icon"><img width="16" height="16" src="/rss.png" alt="RSS Feed" /></a>
 
-        {{ range (where .Data.Pages.ByPublishDate "Section" "posts") }}
+        {{ range $Pages }}
         <h4><a href="{{.Permalink}}" title="{{.Title}}"> {{.Title}}</a></h4>
         <p class="timestamp">{{.Date.Format "2006-01-02"}}<p>
 
